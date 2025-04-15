@@ -53,5 +53,9 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintString   ## SOMETIMES_CONSUMES
   gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintTimes    ## SOMETIMES_CONSUMES
 
+[Protocols]
+  gEfiSimpleTextInProtocolGuid
+  gEfiUsbIoProtocolGuid
+
 [UserExtensions.TianoCore."ExtraFiles"]
   HelloWorldExtra.uni
